@@ -1,0 +1,13 @@
+{
+  "name": "apimock",
+  "version": "1.0.0",
+  "description": "Package json file to install and start api-mock daemon",
+  "scripts": {
+    "start": "$(npm bin)/api-mock api.md"
+  },
+  "author": "Lajos Koszti <ajnasz@ajnasz.hu>",
+  "license": "MIT",
+  "dependencies": {
+    "api-mock": "^0.1.1"
+  }
+}
