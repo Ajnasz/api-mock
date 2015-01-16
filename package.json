@@ -1,7 +1,7 @@
 {
   "name": "apimock",
   "version": "1.0.0",
-  "description": "Package json file to install and start api-mock daemon",
+  "description": "Package json file to install and start api-mock daemon in docker",
   "scripts": {
     "start": "$(npm bin)/api-mock api.md"
   },
