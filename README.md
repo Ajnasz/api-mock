@@ -44,7 +44,7 @@ Represents a particular message by it's *id*.
 Run in shell:
 
 ```sh
-$  docker run -ti --rm -v $PWD/api.md:/app/api.md -p 3000:3000 ajnasz/api-mock
+$  docker run -ti --rm -v $PWD/api.md:/usr/src/app/api.md -p 3000:3000 ajnasz/api-mock
 ```
 
 Then to test by calling a GET request:
